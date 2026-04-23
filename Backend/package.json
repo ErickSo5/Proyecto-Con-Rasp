@@ -1,0 +1,39 @@
+{
+  "name": "clinicavictorio",
+  "version": "1.0.0",
+  "description": "Clinica Victorio",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@simplewebauthn/server": "^13.2.3",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dd-trace": "^5.98.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "ldapjs": "^3.0.7",
+    "mysql2": "^3.11.5",
+    "nodemailer": "^6.10.1",
+    "qrcode": "^1.5.4",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.0.10",
+    "@types/nodemailer": "^6.4.17",
+    "@types/qrcode": "^1.5.6",
+    "@types/speakeasy": "^2.0.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
